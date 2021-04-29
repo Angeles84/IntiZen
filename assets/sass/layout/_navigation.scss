@@ -1,0 +1,15 @@
+.navbar {
+    font-weight: 600;
+    font-size: $small;
+    .dropdown-item {
+        font-weight: 500;
+    }
+}
+
+
+@media (min-width: 960px) {
+    .navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+}
+

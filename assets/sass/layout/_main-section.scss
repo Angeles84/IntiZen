@@ -1,0 +1,104 @@
+.sobremi {
+    background-color: rgba(157, 83, 215, 0.06);
+    padding: 5rem;
+    img {
+        width: 70%;
+    }
+}
+
+.sobremi p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .sobremi {
+        padding: 3.5rem 1rem 3.5rem 1rem;
+        img {
+            width: 85%;
+        }
+    }  
+}
+
+.carousel_imagen {
+    border: 1px solid #c7c6c6;
+    box-shadow: 0.125em 0.25em 0.5em #a1a1a1;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    &:hover {
+        box-shadow: 0.195em 0.35em 0.5em #575757;
+        
+    }
+    h3 {
+        margin-top: 2.4rem;
+        font-weight: 500;
+    }
+    p {
+        margin-top: 1.5rem;
+        margin-bottom: 1.7rem;
+        font-weight: 500;
+    }
+}
+
+
+.columna {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    a {
+      text-decoration: none;
+      color: #262626;
+    }
+}
+
+.carousel-indicators {
+    position: relative;
+    margin-top: 0.8rem;
+    li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: $primary;
+    vertical-align: bottom;
+    margin: 0.5rem;
+   }
+}
+
+.div-boton {
+    text-align: right;
+    .button {
+        margin-right: 3.2rem;
+    }
+}
+
+@media (max-width: 439px) {
+    .carousel_imagen {
+        width: 80%;
+    }
+    .div-boton {
+        text-align: center;
+        .button {
+        margin-right: 0;
+        margin-top: 0.8rem;
+  }
+}
+}
+
+@media (min-width: 440px) and (max-width: 991px) {
+    .carousel_imagen {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .carousel_imagen {
+        width: 85%;
+    }
+    .div-boton .button {
+          margin-right: 1.5rem;
+    }
+    
+}
